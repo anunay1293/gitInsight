@@ -1,8 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GitInsight
+
+An API platform dashboard built with Next.js, featuring a hidable sidebar and Supabase integration.
+
+## Features
+
+- 📊 Dashboard with API key management
+- 🔐 Supabase integration for data persistence
+- 📱 Responsive design with hidable sidebar
+- 🎨 Modern UI with Tailwind CSS
+- 🔔 Toast notifications for user feedback
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -10,15 +30,22 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `/src/app` - Next.js app router pages
+- `/src/components` - React components
+- `/src/config` - Configuration files (Supabase)
+- `/src/lib` - Utility functions and API helpers
+
+## Technologies
+
+- [Next.js](https://nextjs.org) - React framework
+- [Supabase](https://supabase.com) - Backend as a service
+- [Tailwind CSS](https://tailwindcss.com) - Styling
 
 ## Learn More
 
@@ -26,8 +53,6 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
