@@ -15,7 +15,7 @@ const navItems = [
   {
     key: 'playground',
     label: 'API Playground',
-    href: '#',
+    href: '/playground',
     icon: (
       <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
