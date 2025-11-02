@@ -47,9 +47,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - [Supabase](https://supabase.com) - Backend as a service
 - [Tailwind CSS](https://tailwindcss.com) - Styling
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
+## Deployed on vercel : git-insight-oh7f.vercel.app
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
